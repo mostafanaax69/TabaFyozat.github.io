@@ -1,10 +1,20 @@
+/* Set background color to a festive red */
 body {
-  font-family: sans-serif;
-  text-align: center;
-  margin-top: 50px;
+  background-color: #fff;
 }
+
+/* Style the heading with a festive font and color */
 h1 {
-  font-size: 3rem;
-  font-weight: normal;
-  margin-bottom: 30px;
+  font-size: 80px;
+  text-shadow: 1px 1px #000;
+  animation: sparkle 1s infinite;
+  text-align: center;
+
+}
+
+/* Define a sparkle animation */
+@keyframes sparkle {
+  0% { text-shadow: 1px 1px #fff; }
+  50% { text-shadow: 2px 2px #fff; }
+  100% { text-shadow: 1px 1px #fff; }
 }
